@@ -4,9 +4,9 @@ import requests
 device_ids = [1005629165, 1005954355, 1005954365, 1005954345]  # Füge hier die gewünschten IDs hinzu
 
 # Basis-URL der API
-# base_url = "https://mc.chargepoint.com/map-prod/v3/station/info"
 base_url = "https://mc.chargepoint.com/map-prod/v3/station/info"
 
+# https://mc.chargepoint.com/map-prod/v3/station/info?deviceId=1005954365
 
 # Leerer Dictionary, um die Ergebnisse zu speichern
 sensor_data = {}
